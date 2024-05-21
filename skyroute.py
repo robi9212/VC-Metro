@@ -59,7 +59,7 @@ def set_start_and_end(start_point, end_point):
 def show_landmarks():
   see_landmarks = input("Would you like to see the list of landmarks again? Enter y/n: ")
   if show_landmarks == 'y':
-    print(landmarks_string)
+    print(landmark_string)
 
 def new_route(start_point = None, end_point = None):
   start_point, end_point = set_start_and_end(start_point, end_point)
